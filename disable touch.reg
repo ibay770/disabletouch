@@ -1,0 +1,15 @@
+
+Windows Registry Editor Version 5.00
+;Disable touch screen - dancharblog
+;
+; -----Instructions: -----
+;- copy this text into notepad
+;- save as touch.reg
+;- double-click the file and follow the prompts to import changes
+;- reboot
+;
+;- Note: to re-enable touch, just change "00000000" to "00000001" and re-run the script
+; ------------------------
+;
+[HKEY_CURRENT_USER\Software\Microsoft\Wisp\Touch]
+"TouchGate"=dword:00000000
