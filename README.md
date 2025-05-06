@@ -1,4 +1,5 @@
-# disabletouch
+Download here: https://github.com/ibay770/disabletouch/blob/main/disable%20touch.reg
+
 Disable touch for broken Surface Pro, and  other devices.
 This is just a registry key which disables touch in the case of a shattered sceeen and disables ghost touches.
 
